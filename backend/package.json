@@ -1,0 +1,21 @@
+{
+  "name": "eco-mes-backend",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot run src/main/index.ts",
+    "debug": "bun --inspect run src/main/index.ts",
+    "setup:local": "cp"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1.0.30"
+  }
+}
