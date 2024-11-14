@@ -1,0 +1,9 @@
+{
+  "exception.invalid-mongo-connection": "The MongoDB connection is not defined in the '.env' file",
+  "exception.missing-authorization": "Invalid or unidentified authorization",
+  "exception.invalid-endpoint": "Endpoint '%s' not found. Verify the name and try again.",
+  "exception.invalid-language": "Language '%s' is not available",
+  "exception.invalid-method": "Method '%s' not allowed. '%s' expected instead.",
+  "exception.invalid-service": "Service '%s' not found. Verify the name and try again.",
+  "exception.user.already-exist": "User with email '%s' already exists"
+}

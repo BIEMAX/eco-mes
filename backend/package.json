@@ -17,5 +17,8 @@
   "engines": {
     "node": ">=18",
     "bun": ">=1.0.30"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.2"
   }
 }
